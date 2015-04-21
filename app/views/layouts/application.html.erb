@@ -13,7 +13,7 @@
       Signed in as <%= current_user.name %>
       <%= link_to "Sign out", signout_path %>
     <% else %>
-      <%= link_to "Sign in with Twitter", "/auth/twitter"%>
+      <%= link_to "Sign in with To Do List", "/auth/todo"%>
     <% end %>
   </div>
   <% flash.each do |name, msg| %>
